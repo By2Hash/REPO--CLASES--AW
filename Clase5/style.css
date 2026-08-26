@@ -1,0 +1,34 @@
+img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  width: 20%; /* Opcional: define un ancho para que el margen funcione bien */
+}
+
+body {
+
+    color: rgb(0, 0, 0);
+    background-color: rgb(89, 206, 141);
+    text-align: center;
+}
+
+
+h1{
+    text-align: center;
+    
+}
+
+p {
+
+    font-size: 20px;
+    text-align: center;
+}
+
+hr {
+    color: rgb(0, 0, 0);
+}
+
+a {
+
+    padding: 5px;
+}
