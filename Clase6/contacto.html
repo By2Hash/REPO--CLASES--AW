@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas - Contacto</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <img src="./recursos/imagenes/mascota.png" alt="logo de Huellitas">
+        <nav>
+            <a href="./index.html" aria-label="Vinculo de la pagina">
+                Inicio
+            </a>
+            -
+            <a href="./contacto.html">
+                Contacto
+            </a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        <h2>Escribinos</h2>
+        <form action="./contacto.html" method="post">
+            <label for="id_nombre">Nobre</label>
+            <input type="text" name="Nombre" id="id_nombre" placeholder="Ej:Jose">
+            <label for="id_email">Email</label>
+            <input type="email" name="email" id="id_email" placeholder="Ej:josetelapusoysefue@gmail.com">
+
+            <label for="id_tipo">Tipo mascota</label>
+            <select name="tipo" id="id_tipo">
+                <option value="perro">Perro</option>
+                 <option value="ballena">Ballena</option>
+                  <option value="loro">Loro</option>
+            </select>
+
+
+            <label for="id_comentario">Comentario</label>
+            <textarea name="comentario" id="id_comentario"></textarea>
+
+
+            <button type="submit">Enviar</button>
+         
+        </form>
+        <h2>Donde Estamos</h2>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.8389771971583!2d-64.21468952512075!3d-31.363422393691632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329900194b3b47%3A0x583d42973824cac3!2sTienda%20de%20mascotas!5e0!3m2!1ses!2sar!4v1788180108090!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="https://instagram/Huellitas">
+                    @Huellitas
+                </a>
+            </li>
+            <li>Caseros 123 - Bº Centro</li>
+            
+        </ul>
+    </footer>
+</body>
+</html>
