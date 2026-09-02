@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(181, 192, 201);
+    color: rgb(51, 46, 46);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    display: block;
+     margin: 0 auto;
+    width: 60px;
+    height: 60px;
+}
+
+nav {
+    text-align: center;
+    
+}
+
+#producto {
+
+    
+    width: 120px;
+    height: 120px;
+     display: block;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.tarjeta-producto {
+  
+  background-color: #ffffff; 
+  border: 2px solid #2b3a42; 
+  border-radius: 8px; 
+  padding: 16px; 
+  margin: 20px 0; 
+  max-width: 320px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
