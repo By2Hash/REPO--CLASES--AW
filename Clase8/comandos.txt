@@ -1,0 +1,8 @@
+- Instalar pnpm
+npm install -g pnpm
+
+- en cada proyecto
+pn init
+
+- Agregar paquetes
+pn add
