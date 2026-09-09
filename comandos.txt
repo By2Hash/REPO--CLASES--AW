@@ -1,8 +1,13 @@
 - Instalar pnpm
 npm install -g pnpm
 
+- Mostrar version de pnpm
+
+pn -v
+
 - en cada proyecto
 pn init
 
 - Agregar paquetes
 pn add
+

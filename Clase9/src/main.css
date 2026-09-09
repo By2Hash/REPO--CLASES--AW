@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(154, 191, 221);
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    /*
+    Todo lo que esta en llaves, se llama "Regla"
+    */
+    display: flex;
+    flex-direction: column;  /* Apila los elementos verticalmente (header, contenido, footer) */
+    min-height: 100vh;       /* vh significa 'viewport height'. Esto hace que el body ocupe el 100% del alto de la ventana visible */
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+img {
+    display: block;
+     margin: 0 auto;
+    width: 60px;
+    height: 60px;
+}
+
+nav {
+    text-align: center;
+    
+}
+
+#producto {
+
+    
+    width: 120px;
+    height: 120px;
+     display: block;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.tarjeta-producto {
+  
+  background-color: #ffffff; 
+  border: 2px solid #2b3a42; 
+  border-radius: 8px; 
+  padding: 16px; 
+  margin: 20px 0; 
+  max-width: 320px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+a{
+    
+    color: rgb(255, 252, 252);
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    margin: 2%;
+    border-radius: 10%;
+    display: inline-flex;    /* Convierte el enlace en un contenedor flex */
+    justify-content: center; /* Centra el texto horizontalmente */
+    align-items: center;
+}
+
+.redsocial{
+
+    color: rgb(61, 49, 49);
+    background-color: rgb(154, 191, 221);
+}
+
+nav a{
+
+     color: rgb(61, 49, 49);
+    background-color: rgb(154, 191, 221);
+}
+
+.encabezado_principal{
+ background-color: rgb(92, 135, 170);
+}
+
+.main_principal{
+    background-color: rgb(119, 181, 233);
+}
+
+.pie_principal{
+    background-color: rgb(92, 135, 170);
+    margin-top: auto;
+
+}
+
+/*
+Hay que entender el conceptos de::after
+1 - cascada
+2 - selectividad / especifidad
+
+tipo = nombre de etiquetas
+clase = nombre inventado por el desarrollador
+id = atributo id (no usar en los tps)
+* = selector universal
+
+
+*/
