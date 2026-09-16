@@ -1,0 +1,148 @@
+*{
+    box-sizing: content-box;
+}
+
+@font-face{
+    font-family: codigoDeBarra;
+    src: url(./recursos/fuentes/AlienBlock-Regular.ttf);
+}
+
+html{
+    font-family: codigoDeBarra;
+}
+
+
+body {
+    background-color: rgb(154, 191, 221);
+    color: rgb(0, 0, 0);
+  font-family: Libre Barcode 39 Extended, system-ui;    /*
+    Todo lo que esta en llaves, se llama "Regla"
+    */
+    display: flex;
+    flex-direction: column;  /* Apila los elementos verticalmente (header, contenido, footer) */
+    min-height: 100vh;       /* vh significa 'viewport height'. Esto hace que el body ocupe el 100% del alto de la ventana visible */
+    margin: 0;
+}
+
+header{
+    padding: 5px;
+    margin: 5px;
+}
+
+.encabezado_principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Envía la imagen a la izquierda y el nav a la derecha */
+    align-items: center;            /* Centra verticalmente los elementos */
+    width: 100%;                    /* Reemplaza los 60px anteriores por 100% */
+    background-color: rgb(92, 135, 170);
+    padding: 10px 20px;             /* Añade algo de espacio interno en los bordes */
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0;                      /* Elimina el 'margin: 0 auto' para que pegue a la izquierda */
+    width: 60px;
+    height: 60px;
+}
+nav {
+    display: flex;                  /* Coloca los enlaces en fila dentro del nav */
+    gap: 15px;                      /* Separa los enlaces entre sí */
+}
+
+
+#producto {
+
+    
+    width: 120px;
+    height: 120px;
+     display: block;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.tarjeta-producto {
+  
+  background-color: #ffffff; 
+  border: 2px solid #2b3a42; 
+  border-radius: 8px; 
+  padding: 16px; 
+  margin: 20px 0; 
+  max-width: 320px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+a{
+    
+    color: rgb(255, 252, 252);
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    margin: 2%;
+    border-radius: 10%;
+    display: flex;    /* Convierte el enlace en un contenedor flex */
+    justify-content: space-between; /* Centra el texto horizontalmente */
+    
+}
+
+.redsocial{
+
+    color: rgb(61, 49, 49);
+    background-color: rgb(154, 191, 221);
+}
+
+nav a{
+
+     color: rgb(61, 49, 49);
+    background-color: rgb(154, 191, 221);
+}
+
+.encabezado_principal{
+    width: 60px;
+}
+
+
+
+.main_principal{
+    background-color: rgb(119, 181, 233);
+}
+
+.pie_principal{
+    background-color: rgb(92, 135, 170);
+    margin-top: auto;
+
+}
+
+iframe{
+    align-self: center;
+    
+}
+
+/*
+Hay que entender el conceptos de::after
+1 - cascada
+2 - selectividad / especifidad
+
+tipo = nombre de etiquetas
+clase = nombre inventado por el desarrollador
+id = atributo id (no usar en los tps)
+* = selector universal
+
+
+* universal
+<> tipo
+. clase
+# id
+[] atributo
+
+
+
+
+
+
+*/
