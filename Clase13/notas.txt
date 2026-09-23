@@ -1,0 +1,22 @@
+Estudiar o ver estos conceptos
+
+
+Posicionamiento
+
+uso de position
+
+position: sticky
+top:0 => lugar
+
+top: arriba
+bottom: abajo
+left: izquierda
+rigth: derecha
+
+aprender concepto de contenedor,
+
+sticky
+absolute
+position: fixed
+z-index
+view port

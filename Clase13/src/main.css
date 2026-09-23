@@ -1,0 +1,162 @@
+/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(154, 191, 221);
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;  /* Apila los elementos verticalmente (header, contenido, footer) */
+    min-height: 100vh;       /* Hace que el body ocupe el 100% del alto de la pantalla */
+    margin: 0;
+}
+
+.encabezado_principal nav{
+    display: none;
+}
+
+.encabezado_principal .boton-menu{
+    display: block
+}
+
+
+
+/* ENCABEZADO */
+.encabezado_principal  {
+    position: absolute;
+    top: 0;
+    width: 100%;             /* Ocupa todo el ancho de la pantalla */
+    background-color: rgb(92, 135, 170);
+    z-index: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Empuja el logo a la izquierda y el nav a la derecha */
+    align-items: center;            /* Centra verticalmente el logo y los enlaces */
+    padding: 10px 20px;
+    margin: 0;
+}
+
+img {
+    display: block;
+    margin: 0;
+    width: 60px;
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;                      /* Espacio entre cada enlace */
+}
+
+a {
+    color: rgb(61, 49, 49);
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+nav a {
+    color: rgb(61, 49, 49);
+    background-color: rgb(154, 191, 221);
+}
+
+/* CONTENIDO PRINCIPAL */
+h1 {
+    text-align: center;
+}
+
+.main_principal {
+    background-color: rgb(119, 181, 233);
+    flex: 1;                        /* Toma todo el espacio sobrante para empujar el footer abajo */
+    padding: 20px;
+    height: 1500px;
+}
+
+#producto {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.tarjeta-producto {
+    background-color: #ffffff; 
+    border: 2px solid #2b3a42; 
+    border-radius: 8px; 
+    padding: 16px; 
+    margin: 20px 0; 
+    max-width: 320px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* FOOTER */
+.pie_principal {
+    background-color: rgb(92, 135, 170);
+    margin-top: auto;
+    padding: 10px 20px;
+}
+
+.redsocial {
+    color: rgb(61, 49, 49);
+    background-color: rgb(154, 191, 221);
+}
+
+iframe {
+    align-self: center;
+}
+
+@media(width > 600px){
+    .encabezado_principal nav{
+        display: block;
+    }
+
+    .encabezado_principal .boton-menu{
+        display: none;
+    }
+
+
+    .main_principal {
+        background-color: rgb(255, 0, 0);
+    }
+}
+
+
+/*
+Hay que entender el conceptos de::after
+1 - cascada
+2 - selectividad / especifidad
+
+tipo = nombre de etiquetas
+clase = nombre inventado por el desarrollador
+id = atributo id (no usar en los tps)
+* = selector universal
+
+
+* universal
+<> tipo
+. clase - mas especifico
+# id
+[] atributo
+
+
+
+
+
+
+
+
+
+*/
