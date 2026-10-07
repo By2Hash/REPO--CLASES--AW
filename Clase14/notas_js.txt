@@ -1,0 +1,51 @@
+JS (JavaScript) es un lenguaje de programación
+
+HTML - Estructura
+CSS - Estiliza
+JS - Funcionalidad
+
+Una clase es una estructura abstracta.
+Estan las propiedades, atributos y metodos.
+
+F12 - window : ver funciones que se ejecutasn de manera global
+
+console.log() <- Los parentesis quiere decir que es un metodo o funcion
+
+argumento : pasamos el valor
+
+x(1,2,66)
+
+parametro : lo que escribimosen los ()
+
+            declaramos
+                |
+ console.log(a,b,c)
+
+
+ --------------------
+
+ VARIABLES
+
+String nombre = "Bauty"
+
+let nombre = "Bauty"
+
+const nombre = Bautista Pereiro
+
+
+TIPOS PRIMITIVOS 
+SE GUARDAN COMO LITERALES
+
+TIPOS NO PRIMITIVOS
+Estructura de datos
+
+
+---------
+
+ESTRUCTURAS DE CONTROL DE FLUJO
+
+if,else, elif
+
+siempre usar el === y !==
+or = ||
+and = &&
