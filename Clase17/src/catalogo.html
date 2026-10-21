@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huellitas - Catalogo</title>
     <link rel="stylesheet" href="main.css">
+
+    <!--
+    Atributos para usar : 
+    defer
+    type= "module"
+    -->>
+    <script defer  src="./index.js"></script>
 </head>
 <body>
+    
     <header class="encabezado_principal">
         <img src="./recursos/imagenes/mascota.png" alt="logo de Huellitas">
         <nav>
@@ -18,7 +26,7 @@
         <h1>Catalogo de Huellitas</h1>
         <section>
             <h2>Productos</h2>
-            <div>
+            <div id="contenedor_1">
                 <article class="tarjeta-producto">
                     <h3>Correa de cuero</h3>
                     <picture>
@@ -29,11 +37,11 @@
                         <li>Talles: l, xl, m</li>
                         <li>Precio: 10000$</li>
                     </ul>
-                    <button>añadir al carro de compras</button>
+                    <button id="btnAgregar">añadir al carro de compras</button>
                 </article>
             </div>
 
-            <div>
+            <div id="contenedor_1">
                 <article class="tarjeta-producto">
                     <h3>Juguete</h3>
                     <picture>
@@ -43,7 +51,7 @@
                     <ul>
                         <li>Precio: 2000$</li>
                     </ul>
-                    <button>añadir al carro de compras</button>
+                    <button id="btnAgregarla">añadir al carro de compras</button>
                 </article>
             </div>
         </section>
@@ -55,6 +63,6 @@
         <p>&copy; 2026 Huellitas. Todos los derechos reservados.</p>
         
     </footer>
-    <script src="./script.js"></script>
+    
 </body>
 </html>
